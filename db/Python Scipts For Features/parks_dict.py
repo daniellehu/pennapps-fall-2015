@@ -7,8 +7,9 @@ def read(file):
         zips = dict()
 
         for i in xrange(len(data["features"])):
+            
             #Reading in the zip code
-            cur = int(data["features"][i]["properties"]["ZIPCODE"])
+            cur = data["features"][i]["properties"]["ZIPCODE"]
             # Storing it into a dictionary
             if cur in zips:
                 zips[cur] = zips[cur] + 1
@@ -19,8 +20,10 @@ def read(file):
 # Returns a dict with the zipcode as the key and the number of locations
 # as the value
 def main():
-    zips = read("Golf_point.geojson")
-    print zips
+    zips = read("Parks_point.geojson")
+    with open('parks_dictionary.geojson', 'w') as outfile:
+        json.dump(zips, outfile)
+
     return zips
 
 main()
