@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>eeb63efb-2eb0-48bb-b4ad-bde14f366667</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+    <StaticUriPattern>^/static/.*</StaticUriPattern>
+    <StaticUriRewrite>^/$(MSBuildProjectName)/static/.*</StaticUriRewrite>
+    <PythonWsgiHandler>$(MSBuildProjectName).app</PythonWsgiHandler>
+    <Name>testPhillyZipcode</Name>
+    <RootNamespace>testPhillyZipcode</RootNamespace>
+    <InterpreterId>{172cee6a-ad4b-498c-b3aa-6f202412781b}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <IsWindowsApplication>False</IsWindowsApplication>
+    <InterpreterPath>
+    </InterpreterPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="startup.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="runserver.py" />
+    <Compile Include="testPhillyZipcode\parseData.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="testPhillyZipcode\__init__.py" />
+    <Compile Include="testPhillyZipcode\views.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="testPhillyZipcode\" />
+    <Folder Include="testPhillyZipcode\data\" />
+    <Folder Include="testPhillyZipcode\output\" />
+    <Folder Include="testPhillyZipcode\static\" />
+    <Folder Include="testPhillyZipcode\static\content\" />
+    <Folder Include="testPhillyZipcode\static\fonts\" />
+    <Folder Include="testPhillyZipcode\static\scripts\" />
+    <Folder Include="testPhillyZipcode\templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="testPhillyZipcode\data\all_crashes_2012.json" />
+    <Content Include="testPhillyZipcode\data\Fire_Dept_Facilities.json" />
+    <Content Include="testPhillyZipcode\data\Libraries.json" />
+    <Content Include="testPhillyZipcode\data\litter_index.json" />
+    <Content Include="testPhillyZipcode\data\Police_Stations.json">
+      <Publish>True</Publish>
+    </Content>
+    <Content Include="testPhillyZipcode\data\Rec_Facilities.json" />
+    <Content Include="testPhillyZipcode\static\content\bootstrap.css" />
+    <Content Include="testPhillyZipcode\static\content\bootstrap.min.css" />
+    <Content Include="testPhillyZipcode\static\content\site.css" />
+    <Content Include="testPhillyZipcode\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="testPhillyZipcode\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="testPhillyZipcode\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="testPhillyZipcode\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="testPhillyZipcode\static\scripts\bootstrap.js" />
+    <Content Include="testPhillyZipcode\static\scripts\bootstrap.min.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery-1.10.2.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery.validate.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery.validate.min.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="testPhillyZipcode\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="testPhillyZipcode\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="testPhillyZipcode\static\scripts\respond.js" />
+    <Content Include="testPhillyZipcode\static\scripts\respond.min.js" />
+    <Content Include="testPhillyZipcode\static\scripts\_references.js" />
+    <Content Include="testPhillyZipcode\templates\about.html" />
+    <Content Include="testPhillyZipcode\templates\contact.html" />
+    <Content Include="testPhillyZipcode\templates\index.html" />
+    <Content Include="testPhillyZipcode\templates\layout.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="philly\">
+      <Id>{172cee6a-ad4b-498c-b3aa-6f202412781b}</Id>
+      <BaseInterpreter>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</BaseInterpreter>
+      <Version>2.7</Version>
+      <Description>philly (Python 64-bit 2.7)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>Amd64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

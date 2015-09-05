@@ -1,0 +1,11 @@
+GeocoderAuthenticationFailure
+GeopyError
+GeocoderQueryError
+GeocoderNotFound
+GeocoderQuotaExceeded
+GeocoderUnavailable
+GeocoderInsufficientPrivileges
+ConfigurationError
+GeocoderParseError
+GeocoderTimedOut
+GeocoderServiceError

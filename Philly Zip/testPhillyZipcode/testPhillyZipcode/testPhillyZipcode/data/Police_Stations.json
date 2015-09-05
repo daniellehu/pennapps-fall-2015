@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+                                                                                
+"features": [
+{ "type": "Feature", "properties": { "OBJECTID": 1, "DISTRICT_NUMBER": 7, "LOCATION": "Bustleton Ave & Bowler St", "TELEPHONE_NUMBER": "686-3070", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.032697789623526, 40.09097162384068 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 2, "DISTRICT_NUMBER": 14, "LOCATION": "Haines St & Germantown Ave", "TELEPHONE_NUMBER": "686-3140", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.176998793977205, 40.038423574055905 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 3, "DISTRICT_NUMBER": 8, "LOCATION": "Academy Rd & Red Lion Rd", "TELEPHONE_NUMBER": "686-3080", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -74.997293649528643, 40.080097744181117 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 4, "DISTRICT_NUMBER": 2, "LOCATION": "Harbison Ave & Levick St", "TELEPHONE_NUMBER": "686-3020", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.063243508283662, 40.031480057720721 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 5, "DISTRICT_NUMBER": 35, "LOCATION": "N Broad St & Champlost St", "TELEPHONE_NUMBER": "686-3350", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.143651620087454, 40.044493899157303 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 6, "DISTRICT_NUMBER": 15, "LOCATION": "Harbison Ave & Levick St", "TELEPHONE_NUMBER": "686-3150", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.063243508283662, 40.031480057720721 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 7, "DISTRICT_NUMBER": 5, "LOCATION": "Ridge Ave & Cinnaminson St", "TELEPHONE_NUMBER": "686-3050", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.224397120065348, 40.040191290946112 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 8, "DISTRICT_NUMBER": 39, "LOCATION": "22nd St & Hunting Park Ave", "TELEPHONE_NUMBER": "686-3390", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.164253112459079, 40.010893586812955 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 9, "DISTRICT_NUMBER": 25, "LOCATION": "3901 Whitaker Ave", "TELEPHONE_NUMBER": "686-3250", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.122493202736649, 40.008732251164112 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 10, "DISTRICT_NUMBER": 22, "LOCATION": "17th St & Montgomery Ave", "TELEPHONE_NUMBER": "686-3220", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.162402322141446, 39.9807782535473 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 11, "DISTRICT_NUMBER": 24, "LOCATION": "3901 Whitaker Ave", "TELEPHONE_NUMBER": "686-3240", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.122493202736649, 40.008732251164112 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 12, "DISTRICT_NUMBER": 26, "LOCATION": "E Girard Ave & Montgomery Ave", "TELEPHONE_NUMBER": "686-3260", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.127080105098827, 39.971314832052173 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 13, "DISTRICT_NUMBER": 19, "LOCATION": "61st  St & Thompson St", "TELEPHONE_NUMBER": "686-3190", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.240902621625764, 39.971310194341235 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 14, "DISTRICT_NUMBER": 16, "LOCATION": "39th St & Lancaster Ave", "TELEPHONE_NUMBER": "686-3160", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.20015301910739, 39.961925773149069 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 15, "DISTRICT_NUMBER": 9, "LOCATION": "20th St & Pennsylvania Ave", "TELEPHONE_NUMBER": "686-3090", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.171584078616164, 39.960796769244197 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 16, "DISTRICT_NUMBER": 6, "LOCATION": "11th St & Winter St", "TELEPHONE_NUMBER": "686-3060", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.15718603733481, 39.956832565966273 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 17, "DISTRICT_NUMBER": 18, "LOCATION": "55th St & Pine St", "TELEPHONE_NUMBER": "686-3180", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.232168702165197, 39.954283956183374 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 18, "DISTRICT_NUMBER": 17, "LOCATION": "20th St & Federal St", "TELEPHONE_NUMBER": "686-3170", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.176753730881842, 39.937236154152117 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 19, "DISTRICT_NUMBER": 3, "LOCATION": "11th St & Wharton St", "TELEPHONE_NUMBER": "686-3030", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.162285311383002, 39.933440531328358 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 20, "DISTRICT_NUMBER": 12, "LOCATION": "65th St & Woodland Ave", "TELEPHONE_NUMBER": "686-3120", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.234340459578561, 39.925552931595661 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 21, "DISTRICT_NUMBER": 1, "LOCATION": "24th St & Wolf St", "TELEPHONE_NUMBER": "686-3010", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.186928742678205, 39.924057584275076 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 22, "DISTRICT_NUMBER": 0, "LOCATION": "Police Headquarters", "TELEPHONE_NUMBER": " ", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.152352764349629, 39.954533342984178 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 23, "DISTRICT_NUMBER": 0, "LOCATION": "Center City District", "TELEPHONE_NUMBER": " ", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.151940756961693, 39.949248246068727 ] } },
+{ "type": "Feature", "properties": { "OBJECTID": 24, "DISTRICT_NUMBER": 0, "LOCATION": "40th & Chestnut-U-Penn", "TELEPHONE_NUMBER": " ", "RULEID": 1 }, "geometry": { "type": "Point", "coordinates": [ -75.203018129971838, 39.956589564774625 ] } }
+]
+}

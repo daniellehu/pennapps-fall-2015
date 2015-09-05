@@ -1,0 +1,15 @@
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\bin\Microsoft.PythonTools.WebRole.dll
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\attach_server.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\visualstudio_py_debugger.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\visualstudio_py_repl.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\visualstudio_py_util.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\__init__.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\__main__.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\bin\AzureSetup.cfg
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\bin\Microsoft.PythonTools.AzureSetup.exe
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\bin\Microsoft.PythonTools.AzureSetup.exe.config
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\bin\wfastcgi.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\deployment-updated-orig-prefix.txt
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\ptvs_virtualenv_proxy.py
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\web.config
+c:\users\raghav\documents\visual studio 2013\Projects\testPhillyZipcode\testPhillyZipcode\obj\Debug\web.debug.config
