@@ -1,0 +1,132 @@
+@font-face {
+              font-family: "galano";
+              src: url("../fonts/Galano%20Grotesque%20Alt.otf");
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #27ae60;
+    color: white;
+    font-family: galano;
+}
+
+header {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.left-column {
+    width: 45%;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    text-align: right;
+    font-size: 1.5em;
+}
+
+.right-column {
+    width: 50%;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    font-size: 1.5em;
+    
+}
+
+input {
+    margin: 20px; 50px;   
+    
+}
+
+input[type=range] {
+  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
+  width: 20%; /* Specific width is required for Firefox. */
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  cursor: pointer;
+  background: transparent; /* Hides the slider so custom styles can be added */
+  border-color: transparent;
+  color: transparent;
+}
+
+/* Special styling for WebKit/Blink */
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 8.4px;
+  width: 5px;
+  background: rgba(46, 204, 113,1.0);
+  cursor: pointer;
+}
+
+/* All the same stuff for Firefox */
+input[type=range]::-moz-range-thumb {
+  height: 8.4px;
+  width: 5px;
+  background: rgba(46, 204, 113,1.0);
+  cursor: pointer;
+  cursor: pointer;
+}
+
+/* All the same stuff for IE */
+input[type=range]::-ms-thumb {
+  height: 8.4px;
+  width: 5px;
+  background: rgba(46, 204, 113,1.0);
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: white;
+  border-radius: 1.3px;
+  border: 0.2px solid #010101;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: white;
+}
+
+input[type=range]::-moz-range-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: #3071a9;
+}
+
+input[type=range]::-ms-track {
+  width: 100%;
+  height: 8.4px;
+  cursor: pointer;
+  background: transparent;
+  border-color: transparent;
+  border-width: 16px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: white;
+  border-radius: 2.6px;
+}
+input[type=range]:focus::-ms-fill-lower {
+  background: white;
+}
+input[type=range]::-ms-fill-upper {
+  background: white;
+  border-radius: 2.6px;
+}
+input[type=range]:focus::-ms-fill-upper {
+  background: white;
+}

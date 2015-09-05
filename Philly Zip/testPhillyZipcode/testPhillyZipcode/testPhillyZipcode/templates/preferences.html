@@ -4,14 +4,32 @@
         <title>Rate my Neighborhood</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/preferences.css')}}">
     </head>
     
     <body class="container-fluid">
-        <div class="bg">Preferences page
-            <form></form>
+        <div class="bg">
+            <header><h1>Rank your preferences: Low > High</h1></header>
+            <form>
+                <div class="left-column">
+                    <p>Libraries <input type="range" name="libraries" min="0" max="10"></p>
+                    <p>Farmer's Markets <input type="range" name="farmer_market" min="0" max="10"></p>
+                    <p>Health Centers <input type="range" name="healthcare" min="0" max="10"></p>
+                    <p>Recreation Facilities <input type="range" name="recreation" min="0" max="10"></p>
+                    <p>Pools <input type="range" name="pool" min="0" max="10"></p>
+                    <p>Healthy Corner Stores <input type="range" name="healthy_corner" min="0" max="10"></p>
+                </div>
+                <div class="right-column">
+                    <p><input type="range" name="parks" min="0" max="10"> Parks</p>
+                    <p><input type="range" name="golf" min="0" max="10"> Golf Ranges</p>
+                    <p><input type="range" name="libraries" min="0" max="10"> Police Stations</p>
+                    <p><input type="range" name="libraries" min="0" max="10"> Fire Departments</p>
+                    <p><input type="range" name="libraries" min="0" max="10"> Litter Index</p>
+                </div>
+            </form>
         </div>
     </body>
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="{{ url_for('static', filename='../static/js/preferences.js') }}"></script>
 </html>
