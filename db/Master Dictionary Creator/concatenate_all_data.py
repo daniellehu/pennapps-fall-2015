@@ -18,6 +18,13 @@ def update_features(dictType ,cur_dict, master_dict):
         master_dict[i][dictType] = cur_dict[i]
 
 
+def update_features_lit(dictType ,cur_dict, master_dict):
+    bias = max(list(cur_dict.values()))
+    for i in cur_dict.keys():
+        master_dict[i][dictType] = bias - cur_dict[i]
+
+
+
 # imports all data sets and concatenates them into a single dataset
 def main():
     # Gathering seperate data sets
@@ -65,13 +72,13 @@ def main():
     update_features("recreation", recreation_dict, master_dict)
     update_features("healthcare", healthcare_dict, master_dict)
     update_features("libraries", libraries_dict, master_dict)
-    update_features("litter", litter_dict, master_dict)
+    update_features_lit("litter", litter_dict, master_dict)
 
     # Save the dictionary to the file "master_dict" as a .geojson file
     with open('master_dict.json', 'w') as outfile:
         json.dump(master_dict, outfile)
 
-    output = calc.calculation(master_dict)
+#    output = calc.calculation(master_dict)
     # remove comments to print out the entire master_dictionary
     '''
     for j in master_dict.keys():
