@@ -4,8 +4,8 @@
 }
 
 @font-face {
-              font-family: "galano";
-              src: url("../fonts/Galano%20Grotesque%20Alt%20Thin.otf");
+              font-family: "avenir";
+              src: url("../fonts/AvenirLTStd-Light.otf");
 }
 
 * {
@@ -46,31 +46,31 @@ form {
 }
 
 #start {
-    font-family: galano;
+    font-family: avenir;
     font-size: 1em;
     padding: 5px;
-    background-color: rgba(46, 204, 113, 0.9);
-    border-color: rgba(46, 204, 113,1.0);
+    background-color: rgba(26, 188, 156,0.9);
+    border-color: rgba(26, 188, 156,1.0);
     border-radius: 0px;
     color: white;
     margin-top: 20%;
 }
 #start:hover {
-    font-family: galano;
+    font-family: avenir;
     font-size: 1em;
     padding: 5px;
-    background-color: rgba(46, 204, 113, 1.0);
-    border-color: rgba(46, 204, 113,1.0);
+    background-color: rgba(26, 188, 156,0.9);
+    border-color: rgba(26, 188, 156,1.0);
     border-radius: 0px;
     color: white;   
 }
 #start:focus {
     outline: 0;
-    font-family: galano;
+    font-family: avenir;
     font-size: 1em;
     padding: 5px;
-    background-color: rgba(46, 204, 113, 1.0);
-    border-color: rgba(46, 204, 113,1.0);
+    background-color: rgba(26, 188, 156,0.9);
+    border-color: rgba(26, 188, 156,1.0);
     border-radius: 0px;
     color: white;   
 }
@@ -103,31 +103,31 @@ p {
 
 #start {
     box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
-    font-family: galano;
-    font-size: 1.5em;
-    padding: 5px;
-    background-color: rgba(46, 204, 113, 0.9);
-    border-color: rgba(46, 204, 113,1.0);
+    font-family: avenir;
+    font-size: 1.2em;
+    padding: 12px;
+    background-color: rgba(26, 188, 156,0.9);
+    border-color: rgba(26, 188, 156,1.0);
     border-radius: 0px;
     color: white;
     margin-top: 20%;
 }
 #start:hover {
-    font-family: galano;
-    font-size: 1.5em;
-    padding: 5px;
-    background-color: rgba(46, 204, 113, 1.0);
-    border-color: rgba(46, 204, 113,1.0);
+    font-family: avenir;
+    font-size: 1.2em;
+    padding: 12px;
+    background-color: rgba(26, 188, 156,0.9);
+    border-color: rgba(26, 188, 156,1.0);
     border-radius: 0px;
     color: white;   
 }
 #start:focus {
     outline: 0;
-    font-family: galano;
-    font-size: 1.5em;
-    padding: 5px;
-    background-color: rgba(46, 204, 113, 1.0);
-    border-color: rgba(46, 204, 113,1.0);
+    font-family: avenir;
+    font-size: 1.2em;
+    padding: 12px;
+    background-color: rgba(26, 188, 156,0.9);
+    border-color: rgba(26, 188, 156,1.0);
     border-radius: 0px;
     color: white;   
 }

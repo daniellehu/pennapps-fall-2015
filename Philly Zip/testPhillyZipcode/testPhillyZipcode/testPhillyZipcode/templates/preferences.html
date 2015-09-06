@@ -1,31 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>      
-        <title>Rate my Neighborhood</title>
+        <title>Neighborhoods</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/preferences.css')}}">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/font-awesome.min.css')}}">
+        <link rel="shortcut icon" href="{{ url_for('static', filename='../static/img/icon.gif') }}">
     </head>
     
     <body class="container-fluid">
+        <div class="bg-black"></div>
         <div class="bg">
-            <header><h1>Rank your preferences from |Low to High|</h1></header>
+            <header><h1 class="title">Rank your preferences from low to high</h1></header>
             <form method="get" action="/display">
                 <div class="left-column">
-                    <p>Libraries <input type="range" name="libraries" min="0" max="10"></p>
-                    <p>Farmer's Markets <input type="range" name="farmer_market" min="0" max="10"></p>
-                    <p>Health Centers <input type="range" name="healthcare" min="0" max="10"></p>
-                    <p>Recreation Facilities <input type="range" name="recreation" min="0" max="10"></p>
-                    <p>Pools <input type="range" name="pool" min="0" max="10"></p>
-                    <p>Healthy Corner Stores <input type="range" name="healthy_corner" min="0" max="10"></p>
-                </div>
+                    <h3>Libraries <p class="hover-off">Number of libraries in close proximity to the area.</p>
+                    <input type="range" name="libraries" min="0" max="10"></h3>
+                    <h3>Farmer's Markets <p class="hover-off">Quantity of local farmers' markets 
+                    who sell fresh produce.</p>
+                    <input type="range" name="farmer_market" min="0" max="10"></h3>
+                    <h3>Health Centers <p class="hover-off">Amount of public and private health facilities in  
+the area.</p><input type="range" name="healthcare" min="0" max="10"></h3>
+                    <h3>Recreation Facilities <p class="hover-off">Score of the number of recreational facilities and  
+opportunities available for residents in the area.</p><input type="range" name="recreation" min="0" max="10"></h3>
+                    <h3>Pools <p class="hover-off">Number of pools that are accessible to the public.</p><input type="range" name="pool" min="0" max="10"></h3>
+                    <h3>Healthy Corner Stores <p class="hover-off">Quantity of healthy corner stores who promote their  
+customers' well-being as well as healthy food choices.</p><input type="range" name="healthy_corner" min="0" max="10"></h3 >
+                </div> 
                 <div class="right-column">
-                    <p><input type="range" name="parks" min="0" max="10"> Parks</p>
-                    <p><input type="range" name="golf" min="0" max="10"> Golf Ranges</p>
-                    <p><input type="range" name="police" min="0" max="10"> Police Stations</p>
-                    <p><input type="range" name="fire_department" min="0" max="10"> Fire Departments</p>
-                    <p><input type="range" name="litter" min="0" max="10"> Litter Index</p>
+                    <h3><p class="hover-off">Number of parks that are accessible to the public.</p>
+                        <input type="range" name="parks" min="0" max="10"> Parks</h3>
+                    <h3><p class="hover-off">Number of golf courses nearby.</p>
+                        <input type="range" name="golf" min="0" max="10"> Golf Ranges</h3>
+                    <h3><p class="hover-off">Quantities the number of police precincts in the  
+area.</p>
+                        <input type="range" name="police" min="0" max="10"> Police Stations</h3>
+                    <h3><p class="hover-off">Number of fire department facilities in close  
+proximity.</p>
+                        <input type="range" name="fire_department" min="0" max="10"> Fire Departments</h3>
+                    <h3><p class="hover-off">Prevalence of litter within the surrounding area.</p>
+                        <input type="range" name="litter" min="0" max="10"> Litter Index</h3>
                 </div>
                 <button type="submit" id="submit"><i class="fa fa-arrow-circle-o-right"></i></button>
             </form>

@@ -7,34 +7,72 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: #27ae60;
+    
     color: white;
     font-family: galano;
 }
 
-@media only screen and (max-width: 992px)  {
+body {
+    background-image: url("http://images.huffingtonpost.com/2014-02-06-LoveParkstatue_Philly_editorialonly_cMarcoRubino_shutterstock_146655779crop.jpg");
+    background-size: cover;
+}
 
+
+
+@media only screen and (max-width: 992px)  {
+    
+.hover-off {
+    position: fixed;
+    text-align: center;
+    font-size: 1em;
+    width: 25%;
+    top: 35%;
+    left: 10%;
+    display: none;
+}
+
+.hover-on {
+    display: block;
+}
+    
+.bg-black {
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+    
 header {
     text-align: center;
     margin: 25px 0px;
+    z-index: 2;
+    color: white;
+    position: relative;
 }
+    
+h1 { z-index: 3; opacity: 1.0 }
 
 .left-column {
     width: 100%;
     position: relative;
     left: 0%;
     text-align: right;
-    font-size: 1.5em;
+    font-size: 1em;
     padding-right: 50px;
+    z-index: 2;
 }
 
 .right-column {
     width: 100%;
     position: relative;
     left: 0%;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: right;
     padding-right: 50px;
+    z-index: 2;
 }
 
 input {
@@ -149,35 +187,74 @@ input[type=range]:focus::-ms-fill-upper {
     outline: 0;   
 }
     
+button { background-color: rgba(0,0,0,0); }
+    i { background-color: rgba(0,0,0,0); }
+    
 }
 
 @media only screen and (min-width: 992px)  {
+    
+    .hover-off {
+    position: fixed;
+    text-align: center;
+    font-size: 0.8em;
+    width: 20%;
+    top: 68%;
+    left: 40%;
+    display: none;
+}
+
+.hover-on {
+    position: fixed;
+    text-align: center;
+    font-size: 0.8em;
+    width: 20%;
+    top: 63%;
+    left: 40%;
+    display: block;
+}
+    
+.bg-black {
+    background-color: rgba(0,0,0,0.45);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
 
 header {
     text-align: center;
     margin-top: 25px;
+    z-index: 2;
+    color: white;
+    position: relative;
 }
 
-p:hover {
+.title {
+    z-index: 2;
+}
+
+h3:hover {
     opacity: 0.8;
 }
     
 .left-column {
-    width: 45%;
+    width: 40%;
     position: absolute;
     left: 0%;
     top: 20%;
     text-align: right;
     font-size: 1.5em;
+    z-index: 2;
 }
 
 .right-column {
-    width: 50%;
+    width: 40%;
     position: absolute;
-    left: 55%;
+    left: 60%;
     top: 20%;
     font-size: 1.5em;
-    
+    z-index: 2;
 }
 
 input {
@@ -243,7 +320,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: white;
+  background: transparent;
 }
 
 input[type=range]::-moz-range-track {
@@ -276,6 +353,9 @@ input[type=range]::-ms-fill-upper {
 input[type=range]:focus::-ms-fill-upper {
   background: white;
 }
+    button { background-color: rgba(0,0,0,0); }
+    i { background-color: rgba(0,0,0,0); }
+    
 
 #submit {
     font-size: 5em;
