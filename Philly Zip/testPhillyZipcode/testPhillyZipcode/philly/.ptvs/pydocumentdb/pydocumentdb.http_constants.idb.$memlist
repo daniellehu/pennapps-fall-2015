@@ -1,0 +1,10 @@
+HttpContextProperties
+HttpListenerErrorCodes
+HttpStatusDescriptions
+QueryStrings
+HttpHeaders
+HttpHeaderPreferenceTokens
+HttpMethods
+CookieHeaders
+Delimiters
+Versions

@@ -1,0 +1,5 @@
+HTTPConnection
+HTTPS_PORT
+HTTPSConnection
+socket
+ssl

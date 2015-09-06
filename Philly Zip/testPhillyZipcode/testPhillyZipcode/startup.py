@@ -1,8 +1,9 @@
 ﻿"""
 This file functions as the startup file for the project.
 """
-
 from testPhillyZipcode import parseData
+from testPhillyZipcode import views
+from testPhillyZipcode import ranking
 import os
 import json
 from geopy.geocoders import Nominatim, Bing, GoogleV3
@@ -49,4 +50,10 @@ def getLitterData(geolocator):
     data = parseData.getLitterData(path, geolocator)
     parseData.saveOutput(data, "litter_dict")
 
-getLitterData(GoogleGeo2)
+#getLitterData(GoogleGeo2)
+
+
+dbDict = ranking.getDatabaseDict()
+calc = ranking.calculation(dbDict, ranking.fake_inputs)
+print "calc =", calc
+

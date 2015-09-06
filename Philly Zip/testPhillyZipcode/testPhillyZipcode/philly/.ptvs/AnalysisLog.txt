@@ -2562,3 +2562,43 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2015-09-05T18:18:01: Saving group "C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\_markerlib"
 2015-09-05T18:18:01: End of group "C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\_markerlib"
 2015-09-05T18:18:01: Deleting 0 files
+
+2015-09-05T23:20:49: Start analysis
+2015-09-05T23:20:49: [WARNING] Library was set explicitly - skipping path detection
+2015-09-05T23:20:49: IncludeModulesFromModulePath = win32com
+2015-09-05T23:20:49: Deleting 0 files
+2015-09-05T23:20:49: astropy.CallDepth = 0
+2015-09-05T23:20:49: matplotlib.CallDepth = 3
+2015-09-05T23:20:49: pandas.CallDepth = 0
+2015-09-05T23:20:49: sympy.CallDepth = 0
+2015-09-05T23:20:49: Start group "C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb" with 12 files
+2015-09-05T23:20:51: Parsing "pydocumentdb.auth" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\auth.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.backoff_retry_utility" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\backoff_retry_utility.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.base" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\base.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.documents" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\documents.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.document_client" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\document_client.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.errors" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\errors.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.https_connection" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\https_connection.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.http_constants" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\http_constants.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.query_iterable" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\query_iterable.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.runtime_constants" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\runtime_constants.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb.synchronized_request" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\synchronized_request.py")
+2015-09-05T23:20:51: Parsing "pydocumentdb" ("C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb\__init__.py")
+2015-09-05T23:20:51: Parsing complete
+2015-09-05T23:20:51: Analyzing "pydocumentdb.auth"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.backoff_retry_utility"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.base"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.documents"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.document_client"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.errors"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.https_connection"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.http_constants"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.query_iterable"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.runtime_constants"
+2015-09-05T23:20:51: Analyzing "pydocumentdb.synchronized_request"
+2015-09-05T23:20:51: Analyzing "pydocumentdb"
+2015-09-05T23:20:51: Starting analysis of 12 modules
+2015-09-05T23:20:51: Analysis complete
+2015-09-05T23:20:51: Saving group "C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb"
+2015-09-05T23:20:51: End of group "C:\Users\Danielle\Documents\GitHub\pennapps-fall-2015\Philly Zip\testPhillyZipcode\testPhillyZipcode\philly\Lib\site-packages\pydocumentdb"
+2015-09-05T23:20:51: Deleting 0 files

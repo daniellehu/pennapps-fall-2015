@@ -1,0 +1,6 @@
+__GetAuthorizationTokenUsingResourceTokens
+http_constants
+GetAuthorizationHeader
+hmac
+__GetAuthorizationTokenUsingMasterKey
+sha256

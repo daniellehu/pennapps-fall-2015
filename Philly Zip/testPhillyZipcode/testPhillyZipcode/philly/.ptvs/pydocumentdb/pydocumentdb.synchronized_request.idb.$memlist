@@ -1,0 +1,12 @@
+urlparse
+_RequestBodyFromData
+errors
+_IsReadableStream
+json
+SynchronizedRequest
+http_constants
+_InternalRequest
+documents
+basestring
+urllib
+https_connection

@@ -36,7 +36,13 @@
     <Compile Include="startup.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="testPhillyZipcode\config.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="testPhillyZipcode\parseData.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="testPhillyZipcode\ranking.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="testPhillyZipcode\runserver.py" />
