@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>      
+        <title>Rate my Neighborhood</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/display.css')}}">
+    </head>
+    
+    <body class="container-fluid">
+        <header>Places where you can call home in Philadelphia:</header>
+        <div class="google-map">
+        <!--Where Atty inputs a map!-->
+        </div>
+        
+        
+    </body>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="{{ url_for('static', filename='../static/js/display.js') }}"></script>
+</html>

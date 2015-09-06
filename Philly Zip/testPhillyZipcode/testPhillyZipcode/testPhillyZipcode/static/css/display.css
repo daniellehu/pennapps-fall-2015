@@ -1,0 +1,21 @@
+@font-face {
+              font-family: "galano";
+              src: url("../fonts/Galano%20Grotesque%20Alt.otf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #27ae60;
+    color: white;
+    font-family: galano;
+}
+
+@media only screen and (max-width: 768px)  {
+
+}
+
+@media only screen and (min-width: 768px)  {
+    
+    
+}

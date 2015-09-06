@@ -5,12 +5,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/preferences.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='../static/css/font-awesome.min.css')}}">
     </head>
     
     <body class="container-fluid">
         <div class="bg">
-            <header><h1>Rank your preferences: Low > High</h1></header>
-            <form>
+            <header><h1>Rank your preferences from |Low to High|</h1></header>
+            <form method="get" action="/display">
                 <div class="left-column">
                     <p>Libraries <input type="range" name="libraries" min="0" max="10"></p>
                     <p>Farmer's Markets <input type="range" name="farmer_market" min="0" max="10"></p>
@@ -22,10 +23,11 @@
                 <div class="right-column">
                     <p><input type="range" name="parks" min="0" max="10"> Parks</p>
                     <p><input type="range" name="golf" min="0" max="10"> Golf Ranges</p>
-                    <p><input type="range" name="libraries" min="0" max="10"> Police Stations</p>
-                    <p><input type="range" name="libraries" min="0" max="10"> Fire Departments</p>
-                    <p><input type="range" name="libraries" min="0" max="10"> Litter Index</p>
+                    <p><input type="range" name="police" min="0" max="10"> Police Stations</p>
+                    <p><input type="range" name="fire_department" min="0" max="10"> Fire Departments</p>
+                    <p><input type="range" name="litter" min="0" max="10"> Litter Index</p>
                 </div>
+                <button type="submit" id="submit"><i class="fa fa-arrow-circle-o-right"></i></button>
             </form>
         </div>
     </body>

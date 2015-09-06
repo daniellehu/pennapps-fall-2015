@@ -1,4 +1,4 @@
-"""
+﻿"""
 The flask application package.
 """
 

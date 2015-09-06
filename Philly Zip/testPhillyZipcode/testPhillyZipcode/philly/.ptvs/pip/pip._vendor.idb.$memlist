@@ -9,8 +9,8 @@ ipaddress
 six
 distlib
 absolute_import
-html5lib
 glob
+html5lib
 _markerlib
 os
 lockfile

@@ -1,5 +1,5 @@
 getTreeBuilder
-trie
+filters
 __version__
 unicode_literals
 division
@@ -11,7 +11,7 @@ serializer
 sanitizer
 absolute_import
 __all__
-filters
+trie
 utils
 ihatexml
 parse
