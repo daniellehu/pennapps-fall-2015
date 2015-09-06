@@ -1,4 +1,4 @@
-from pydocumentdb import document_client
+﻿from pydocumentdb import document_client
 import config
 
 def getDatabaseDict():
@@ -16,7 +16,7 @@ def getDatabaseDict():
         if doc['id'] == config.DOCUMENTDB_DOCUMENT:
             dictionary = doc
             break
-    print "dict =",dictionary
+    #print "dict =",dictionary
     return dictionary
 
 # Takes in data dictionary and user input dictionary

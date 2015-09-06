@@ -4,6 +4,7 @@ This script runs the testPhillyZipcode application using a development server.
 
 from os import environ
 from flask import Flask, render_template, url_for, request
+import ranking, json
 app = Flask(__name__)
 
 @app.route('/')
@@ -14,8 +15,7 @@ def index(): # returns homepage
 def preferences(): # returns page to select different preferences
     return render_template("preferences.html")
 
-@app.route('/display')
-def display(): # displays the data needed
+def create_dictionary():
     preferences_dict = dict()
     preferences_dict['libraries'] = request.args.get('libraries')
     preferences_dict['farmer_market'] = request.args.get('farmer_market')
@@ -28,10 +28,19 @@ def display(): # displays the data needed
     preferences_dict['police'] = request.args.get('police')
     preferences_dict['fire_department'] = request.args.get('fire_department')
     preferences_dict['litter'] = request.args.get('litter')
+    return preferences_dict
 
-    #put function here that will talk to database
 
-    return render_template("display.html")
+
+@app.route('/display')
+def display(): # displays the data needed
+
+    inputs = create_dictionary()
+    data = ranking.getDatabaseDict()
+    output = ranking.calculation(data, inputs)
+    return render_template("display.html", database = json.dumps(output))
+
+
 
 if __name__ == '__main__':
     HOST = environ.get('SERVER_HOST', 'localhost')
